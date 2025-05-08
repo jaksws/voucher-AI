@@ -6,11 +6,11 @@ arabic-reshaper==3.0.0
 
 # الذكاء الاصطناعي والتعلم العميق
 torch==2.0.1+cpu --find-links https://download.pytorch.org/whl/torch_stable.html
-torchvision
+torchvision==0.15.2+cpu --find-links https://download.pytorch.org/whl/torch_stable.html
 ultralytics
 easyocr==1.7.1
-numpy
 opencv-python-headless==4.8.0.76
+numpy<2.0
 
 # API
 fastapi==0.109.0

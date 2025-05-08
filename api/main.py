@@ -10,6 +10,13 @@ from PIL import Image
 
 app = FastAPI(title="Voucher AI API")
 
+@app.exception_handler(Exception)
+def global_exception_handler(request, exc):
+    return JSONResponse(
+        status_code=500,
+        content={"success": False, "error": str(exc), "message": "An unexpected error occurred."}
+    )
+
 @app.post("/extract")
 async def extract_voucher(file: UploadFile = File(...)):
     try:
