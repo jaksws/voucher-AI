@@ -1,0 +1,11 @@
+pdf2image
+Pillow
+numpy
+torch
+torchvision
+ultralytics
+easyocr
+fastapi
+uvicorn
+PyQt5
+pyyaml

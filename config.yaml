@@ -1,0 +1,13 @@
+ocr:
+  preferred_engine: "hybrid"  # hybrid | tesseract | easyocr
+  tesseract_path: "C:/Program Files/Tesseract-OCR/tesseract.exe"
+  languages: ["ara", "eng"]
+
+processing:
+  enable_super_resolution: true
+  min_confidence: 0.75
+  arabic_text_correction: true
+
+model:
+  yolo_weights: "models/best.pt"
+  tesseract_model: "custom/ara.traineddata"
