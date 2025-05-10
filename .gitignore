@@ -1,0 +1,38 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore environment files
+.env
+
+# Ignore data and models
+/data/
+/models/
+
+# Ignore compiled files
+*.so
+*.dll
+
+# Ignore logs
+*.log
+
+# Ignore Docker-related files
+*.pid
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore other unnecessary files
+*.bak
+*.tmp
+*.swp
+
+# Ignore pip and virtual environment
+pip-wheel-metadata/
+*.egg-info/
+venv/
+
+# Ignore system files
+.DS_Store
+Thumbs.db

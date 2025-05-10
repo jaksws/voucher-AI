@@ -5,8 +5,8 @@ pytesseract==0.3.10
 arabic-reshaper==3.0.0
 
 # الذكاء الاصطناعي والتعلم العميق
-torch==2.0.1+cpu --find-links https://download.pytorch.org/whl/torch_stable.html
-torchvision==0.15.2+cpu --find-links https://download.pytorch.org/whl/torch_stable.html
+torch==2.2.0
+torchvision==0.17.0
 ultralytics
 easyocr==1.7.1
 opencv-python-headless==4.8.0.76
