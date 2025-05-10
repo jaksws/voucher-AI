@@ -5,7 +5,7 @@ pytesseract==0.3.10
 arabic-reshaper==3.0.0
 
 # الذكاء الاصطناعي والتعلم العميق
-torch==2.2.0
+torch==2.7.0
 torchvision==0.17.0
 ultralytics
 easyocr==1.7.1
